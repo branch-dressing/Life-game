@@ -1,6 +1,6 @@
 const test = QUnit.test;
 
-test('should return the the current time plus 20 mins', function(assert) {
+test('Should create ', function(assert) {
     //Arrange
     // Set up your parameters and expectations
     let results = new Date().getTime();

@@ -1,7 +1,8 @@
-const character = {
+const creation = {
     name: '',
-    happieness: 100,
     age: 0,
+    birthTime: '',
+    happieness: 100,
     sanity: 100,
     expriences: {
         positiveEx: {
@@ -22,6 +23,6 @@ const character = {
         word: '',
         memory: '',
     }
-}
+};
 
-export default character;
+export default creation;
