@@ -1,0 +1,41 @@
+#timer {
+    position: fixed;
+    bottom: 0px
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    list-style: none;
+    margin: 0;
+}
+
+#conversation {
+    background-color: cadetblue;
+    height: 60vw;
+    margin: 0;
+}
+
+#creator-text {
+    text-align: end;
+    background-color: coral;
+    width: 80%;
+}
+
+#character-text {
+    background-color: slateblue;
+    width: 80%;
+}
+
+#character-box {
+    border: solid 3px black;
+    border-top: solid 1px pink;
+}
+
+#edge {
+    position: relative;
+    top: 130px;
+    z-index: -1;
+}

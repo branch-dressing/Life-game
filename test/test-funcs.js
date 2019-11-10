@@ -1,16 +1,14 @@
-// IMPORT MODULES under test here:
-// import example from '../src/example.js';
-
 const test = QUnit.test;
 
-test('time to test a function', function(assert) {
+test('should return the the current time plus 20 mins', function(assert) {
     //Arrange
     // Set up your parameters and expectations
-
+    let results = new Date().getTime();
+    let expected;
     //Act 
     // Call the function you're testing and set the result to a const
 
     //Assert
     // Make assertions about what is expected valid result
-    assert.equal(true, false);
+    assert.equal(results, expected);
 });

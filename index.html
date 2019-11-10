@@ -6,12 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Untitled Life Game</title>
 </head>
 
 <body>
+    <span id="timer">Timer</span>
 
-    <script src="app.js"></script>
+    <div id="stats">
+        <ul>
+            <li>Name: <span id="name"></span></li>
+            <li>Stats: <span id="stat"></span></li>
+            <li>Stats: <span id="stat"></span></li>
+        </ul>
+    </div>
+
+    <div id="conversation">
+        <p id="characters-text">Character Text</p>
+        <p id="creator-text">Creator Text</p>
+    </div>
+
+    <div id="character-box">
+        <hr id="edge">
+        <div id="image"></div>
+            <img src="./assets/david-lynch-holder.png">
+        </div>
+    </div>
+
+    <script type="module" src="./game/app.js"></script>
 </body>
 
 </html>
