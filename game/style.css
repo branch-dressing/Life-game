@@ -1,6 +1,13 @@
+body {
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+
 #timer {
     position: fixed;
-    bottom: 0px
+    bottom: 0px;
+    color: black;
 }
 
 ul {
@@ -14,8 +21,9 @@ ul {
 
 #convo-box {
     position: relative;
-    background-color: cadetblue;
-    height: 60vw;
+    background-image: url('https://images.wallpapersden.com/image/download/cyrodiil-pixel-art_64352_2380x1490.jpg');
+    background-size: contain;
+    height: 230px;
     margin: 0;
 }
 
@@ -24,29 +32,39 @@ p {
 }
 
 .creator-text {
+    padding: 1px;
     text-align: end;
     right: 0px;
-    background-color: coral;
+    background-color: #0460ffa1;
     width: 80%;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .creation-text {
-    background-color: slateblue;
+    background-color: #f956fd8c;
     width: 80%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #creator-input {
     position: absolute;
     bottom: 0px;
-    right: 10%;
-    width: 80%;
+    right: 0px;
+    width: 100%;
     text-align: end;
-    opacity: 50%;
+}
+
+#input-box {
+    background-color: #ffffff5e;
+    border: none;
+    width: 80%;
 }
 
 #creation-box {
-    border: solid 3px black;
-    border-top: solid 1px pink;
+    background-color: #012c54;
 }
 
 #edge {
