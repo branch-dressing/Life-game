@@ -43,6 +43,7 @@ p {
 }
 
 .creation-text {
+    clear: right;
     background-color: #f956fd8c;
     width: 80%;
     margin-top: 0px;

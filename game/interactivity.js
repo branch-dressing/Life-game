@@ -11,6 +11,7 @@
 
 // }
 
+//Posts text to the screen from either party
 export function postText(entityTalking, text) {
     const textBox = document.getElementById('conversation');
     const el = document.createElement('p');

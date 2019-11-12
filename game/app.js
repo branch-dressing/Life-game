@@ -4,11 +4,11 @@ import { postText } from './interactivity.js';
 const timeStamp = new Date().getTime();
 const endTime = timeStamp + 1200000;
 
-let timerText = document.getElementById('timer');
+//let timerText = document.getElementById('timer');
 //timerText.textContent ===
 
 //purposefully not called at the moment
-//countdownTimer(endTime);
+countdownTimer(endTime);
 
 
 
@@ -18,7 +18,7 @@ creatorInput.addEventListener('submit', function(event){
     event.preventDefault();
     
     let text = document.getElementById('input-box');
-    postText('creator', text.value);
+    postText('creator', text.value.toLowerCase());
     text.value = '';
 });
 
